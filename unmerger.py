@@ -3,7 +3,7 @@ from openpyxl import load_workbook
 from openpyxl.utils.cell import column_index_from_string as col_ifs
 from openpyxl.utils.exceptions import InsufficientCoordinatesException
 
-filename = 'fekonomiki_i_finansov_ofo_1_kurs_0'
+filename = '3_kurs_0'
 wb1 = load_workbook('{}.xlsx'.format(filename), read_only=False, guess_types=True)
 
 
